@@ -1,13 +1,15 @@
-const extractor = require("./extractor");
+const PostsExtractor = require("./extractor");
 const formatter = require("./formatter");
 const requestor = require("./requestor");
 const filter = require("./filter");
 const addDefaultImage = require("./addDefaultImage");
+const PostContentExtractor = require("./postContentExtractor");
 
 module.exports = {
-  extractor,
+  PostsExtractor,
   formatter,
   requestor,
   filter,
-  addDefaultImage
+  addDefaultImage,
+  PostContentExtractor
 };

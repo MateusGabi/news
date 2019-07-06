@@ -91,11 +91,11 @@ const gazetaDoPovo = new GazetaDoPovoResource({
 });
 
 module.exports = [
-  canaltech,
-  exame,
-  folha,
-  twitter,
-  uol,
-  tecmundo,
-  gazetaDoPovo
+  canaltech
+  // exame,
+  // folha,
+  // twitter,
+  // uol,
+  // tecmundo,
+  // gazetaDoPovo
 ].sort(() => Math.random() - Math.random());
