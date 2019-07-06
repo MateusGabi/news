@@ -4,11 +4,14 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon --watch . server.js"
   },
   "dependencies": {
+    "cacher": "https://github.com/MateusGabi/Cacher",
     "chalk": "^2.4.2",
     "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1",
     "request": "^2.88.0",
     "request-promise": "^4.2.4"
   }

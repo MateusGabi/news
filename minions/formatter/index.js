@@ -2,8 +2,8 @@ const chalk = require("chalk");
 
 function resolver({ posts, resource, type }) {
   if (type === "JSON") {
-    console.log(JSON.stringify({ title: resource.title, posts }));
-    return;
+    // console.log();
+    return { title: resource.title, posts };
   }
 
   console.log("\n--------------------");
